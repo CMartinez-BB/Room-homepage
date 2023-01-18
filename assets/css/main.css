@@ -1,0 +1,31 @@
+/* Fonts by google */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap');
+
+/* Variables */
+:root{
+    --darkGray: hsl(0, 0%, 63%);
+    --black: hsl(0, 0%, 0%);
+    --white: hsl(0, 0%, 100%);
+    --veryDarkGray: hsl(0, 0%, 27%);
+
+    --fontFamily: 'League Spartan', sans-serif;
+}
+
+/* My settings */
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    bottom: 0;
+}
+
+body{
+    font-family: var(--fontFamily);
+    font-size: 1.5rem;
+    box-sizing: border-box;
+}
+
+/* Generals */
