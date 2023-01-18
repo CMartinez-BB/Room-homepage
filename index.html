@@ -4,29 +4,85 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./public/SVG/favicon-32x32.png">
   
   <title>Frontend Mentor | Room homepage</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+  <!-- <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  </style> -->
 </head>
 <body>
-  Home
+
+  <div class="container">
+    <!-- Section header start -->
+    <header class="menu">
+      <!-- Logo and Menu -->
+      <div class="menu__cont">
+        <div class="menu__logo">
+          <img src="./public/SVG/icon-hamburger.svg" alt="Menu hambuerguer">
+        </div>
+        <div class="menu__hamburguer">
+            <img src="./public/SVG/logo.svg" alt="Logo">
+        </div>
+      </div>
+      <div class="menu__button">
+        <button>
+          <img src="./public/SVG/icon-angle-left.svg" alt="Arrow left">
+        </button>
+        <button>
+          <img src="./public/SVG/icon-angle-right.svg" alt="Arrow right">
+        </button>
+      </div>
+    </header>
+
+    <!-- Section Main start -->
+    <main class="main">
+      <div class="main__text">
+        <h1 class="main__title">Discover innovative ways to decorate</h1>
+    
+        <p class="main__p">
+          We provide unmatched quality, comfort, and style for property owners across the country.
+          Our experts combine form and function in bringing your vision to life. Create a room in your
+          own style with our collection and make your property a reflection of you and what you love.
+        </p>
+        <a href="#">
+          Shop now <img src="./public/SVG/icon-arrow.svg" alt="Icon arrow">
+        </a>
+      </div>
+    </main>
+  </div>
+
+  <section class="section">
+    <div class="section__cont">
+      <div class="section__background">
+        <img src="./public/imgs/image-about-dark.jpg" alt="Imagen about dark">
+      </div>
+      <div class="section__text">
+        <h2>
+          About our furniture
+        </h2>
+        <p>
+          Our multifunctional collection blends design and function to suit your individual taste.
+          Make each room unique, or pick a cohesive theme that best express your interests and what
+          inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+          or anything in between. Product specialists are available to help you create your dream space.
+        </p>
+      </div>
+      <div class="section__background2">
+        <img src="./public/imgs/image-about-light.jpg" alt="Imgaen about light">
+      </div>
+    </div>
+  </section>
+
+  <!-- Home
   Shop
   About
   Contact
 
-  Discover innovative ways to decorate
-
-  We provide unmatched quality, comfort, and style for property owners across the country. 
-  Our experts combine form and function in bringing your vision to life. Create a room in your 
-  own style with our collection and make your property a reflection of you and what you love.
-
-  Shop now
+ 
 
   We are available all across the globe
 
@@ -44,13 +100,10 @@
 
   Shop now
 
-  About our furniture
-
-  Our multifunctional collection blends design and function to suit your individual taste.
-  Make each room unique, or pick a cohesive theme that best express your interests and what
-  inspires you. Find the furniture pieces you need, from traditional to contemporary styles
-  or anything in between. Product specialists are available to help you create your dream space.
   
+
+  
+   -->
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
