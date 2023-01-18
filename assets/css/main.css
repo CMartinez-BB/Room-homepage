@@ -101,3 +101,59 @@ header .menu__button button{
 
 
 /* Start Main styles | Mobile desgin */
+main{
+    width: 100%;
+    max-width: 50rem;
+    height: 39.5rem;
+
+    display: block;
+}
+
+main .main__text {
+    max-width: 50rem;
+    height: 27.5rem;
+
+    padding-top: 4.3rem;
+    padding-left: 3.3rem;
+    padding-right: 3.2rem;
+    padding-bottom: 7.7rem;
+}
+
+.main__text .main__title{
+    
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.main__text .main__p{
+    font-size: 1.5rem;
+    color: var(--darkGray);
+    font-weight: 500;
+
+    margin-top: 2.5rem;
+    margin-bottom: 4.6rem;
+}
+
+.main__text .main__link svg{
+    fill: var(--black);
+    transition: all 0.4s;
+}
+
+.main__text .main__link{
+    text-decoration: none;
+    color: var(--black);
+    font-size: 1.3rem;
+    letter-spacing: 1.1rem;
+    text-transform: uppercase;
+
+    transition: all 0.4s;
+}
+
+.main__text .main__link svg:hover{
+    fill: var(--darkGray);
+}
+
+.main__text .main__link:hover{
+    color: var(--darkGray);
+}
