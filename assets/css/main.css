@@ -28,4 +28,10 @@ body{
     box-sizing: border-box;
 }
 
+/* Genrals of HTML*/
+button{
+    background: none;
+    border: none;
+}
+
 /* Generals */
