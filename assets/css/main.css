@@ -214,3 +214,37 @@ main .main__text {
 
     padding-top: 2.7rem;
 }
+
+/* Start styles for tablets */
+@media (min-width: 500px) {
+    /* Header styles | Tablet design */
+    header{
+        width: 100%;
+        max-width: 60rem;
+        height: 36rem;
+    }
+    .background{
+        width: 100%;
+        max-width: 60rem;
+        background-image: url(../../public/imgs/desktop-image-hero-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .menu__cont .menu__hamburguer img
+    {
+        width: 3rem;
+        height: 2rem;
+    }
+
+    .menu__cont .menu__logo{
+        margin-right: 20rem;
+        margin-top: 5rem;
+    }
+
+    .menu__cont .menu__logo img{
+        width: 7rem;
+        height: 1.5rem;
+    }
+}
