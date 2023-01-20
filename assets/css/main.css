@@ -107,7 +107,7 @@ main{
     max-width: 50rem;
     height: 39.5rem;
 
-    display: block;
+    /* display: block; */
 }
 
 main .main__text {
@@ -248,5 +248,26 @@ main .main__text {
         height: 1.5rem;
     }
 
-    
+    /* Main styles - information on our services | Tablet design */
+    main{
+        max-width: 60rem;
+    }
+
+    main .main__text{
+        max-width: 60rem;
+    }
+
+    .main__text .main__title{
+        font-size: 3rem;
+    }
+
+    .main__text .main__p{
+        font-size: 2.2rem;
+        line-height: 2.5rem;
+    }
+
+    .main__text .main__link{
+        font-size: 2.2rem;
+    }
+
 }
