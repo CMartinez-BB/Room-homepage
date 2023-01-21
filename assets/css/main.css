@@ -28,6 +28,10 @@ body{
     box-sizing: border-box;
 }
 
+.hidden{
+    display: none;
+}
+
 /* Genrals of HTML*/
 .attribution { font-size: 1.1rem; text-align: center;  font-family: var(--fontFamily); margin-top: 3rem;}
 .attribution a { color: hsl(228, 45%, 44%); text-decoration: none; padding-bottom: 1.5rem;}
@@ -45,17 +49,22 @@ header{
 }
 
 .background{
-    background-image: url(../../public/imgs/mobile-image-hero-1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
     max-width: 50rem;
-    height: 36rem;
-
     
 }
 
+.background > img{
+    /* background-image: url(../../public/imgs/mobile-image-hero-1.jpg); */
+    width: 100%;
+    height: 36rem;
+
+    /* background-position: center; */
+    object-fit: cover;    
+}
+
+.background-desktop{
+    display: none;
+}
 
 header .menu__cont{
     display: flex;
@@ -73,7 +82,6 @@ header .menu__button{
     display: flex;
     justify-content: end;
     margin-top: 30.4rem;
-
 }
 
 .menu__cont .menu__hamburguer{
@@ -223,13 +231,22 @@ main .main__text {
         max-width: 90rem;
         height: 36rem;
     }
+
     .background{
+        display: none;
+    }
+
+    .background-desktop{
+        display: block;
+    }
+
+    .background-desktop > img{
+        /* width: 100%; */
+        /* background-image: url(../../public/imgs/desktop-image-hero-1.jpg); */
         width: 100%;
         max-width: 90rem;
-        background-image: url(../../public/imgs/desktop-image-hero-1.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
+        height: 36rem;
+        object-fit: cover;
     }
 
     .menu__cont .menu__hamburguer img
@@ -246,6 +263,10 @@ main .main__text {
     .menu__cont .menu__logo img{
         width: 7rem;
         height: 1.5rem;
+    }
+
+    header .menu__button{
+        max-width: 90rem;
     }
 
     /* Main styles - information on our services | Tablet design */
@@ -308,3 +329,10 @@ main .main__text {
         font-size: 1.5rem;
     }
 }
+
+@media (min-width: 1440px) {
+    .container{
+        background-color:aqua;
+    }
+}
+
