@@ -147,6 +147,8 @@ main .main__text {
 .main__text .main__link svg{
     fill: var(--black);
     transition: all 0.4s;
+
+    cursor: pointer;
 }
 
 .main__text .main__link{
@@ -159,12 +161,10 @@ main .main__text {
     transition: all 0.4s;
 }
 
-.main__text .main__link svg:hover{
-    fill: var(--darkGray);
-}
-
+.main__text .main__link svg:hover,
 .main__text .main__link:hover{
     color: var(--darkGray);
+    fill: var(--darkGray);
 }
 
 /* Sarts section about | Mobile First */
@@ -365,8 +365,23 @@ main .main__text {
     }
 
     main .main__text{
-        max-width: 60rem;
-        height: 45.5rem;
+        max-width: 40.9rem;
+        height: 26.6rem;
+
+        padding-left: 10.2rem;
+        padding-top: 11.7rem;
+        padding-right: 9.7rem;
+
+    }
+
+    main .main__text .main__title{
+        font-size: 4rem;
+    }
+
+    main .main__text .main__p,
+    main .main__text .main__link{
+        font-size: 1.5rem;
+        line-height: 1.9rem;
     }
 
     main .menu__button{
